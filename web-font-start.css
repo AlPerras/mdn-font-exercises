@@ -1,9 +1,24 @@
 /* General setup */
+@font-face {
+  font-family: "allerregular";
+  src: url("webFontKit-Aller+Molot/aller_rg-webfont.woff2") format("woff2"),
+    url("webFontKit-Aller+Molot/aller_rg-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "molotregular";
+  src: url("webFontKit-Aller+Molot/molot-webfont.woff2") format("woff2"),
+    url("webFontKit-Aller+Molot/molot-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 html {
   font-size: 10px;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "allerregular", sans-serif;
 }
 
 body {
@@ -15,10 +30,12 @@ body {
 /* Typography */
 
 h1 {
+  font-family: "molotregular";
   font-size: 3.2rem;
 }
 
 h2 {
+  font-family: "molotregular";
   font-size: 2.4rem;
 }
 
